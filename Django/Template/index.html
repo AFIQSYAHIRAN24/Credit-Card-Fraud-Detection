@@ -1,0 +1,27 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="{% static 'images/shield-and-sword.ico' %}" type="image/x-icon">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <title>Vanguard Detection</title>
+</head>
+<body>
+    <div>
+        <div class="container">
+            <h1>WELCOME TO THE CREDIT CARD FRAUD DETECTION</h1>
+            <div class="center-container">
+                <form action="predict">
+                    <input type="submit" value="Let's get started">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
